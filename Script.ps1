@@ -29,8 +29,8 @@ git remote show origin
 #Can replace --global with --local to set values for a specific repo if required
 git config --global --list    #care about username and email
 
-git config --global user.name "John Savill"
-git config --global user.email john@savilltech.com
+git config --global user.name "Mehdi Kameli"
+git config --global user.email mehdi.kameli@outlook.com
 
 git config --list --show-origin      #see where coming from :q
 git config --list
@@ -51,7 +51,7 @@ git add .
 #Notice we now have a new object in a 2 character folder name with 38 character name, i.e. 40 character hash
 git status
 git diff --cached #Difference between staged and what is commited
-git commit -m "Initial testfile.txt commit"
+git commit -m "Initial"
 #We have two new objects created! The path and the commit itself
 
 #NOTE Could combine the add and commit
