@@ -1,6 +1,8 @@
 $scratch = 'D:\scratch'
 $devopsmc = 'C:\Users\john\OneDrive\projects\GIT\DevOpsMC'
 
+#lets see how this appears in the Feature branch
+
 #Check version
 git --version
 
@@ -55,7 +57,7 @@ git commit -m "Initial"
 #We have two new objects created! The path and the commit itself
 
 #NOTE Could combine the add and commit
-git commit -am "Initial testfile.txt commit"
+git commit -am "Initial"
 #or even
 git commit -a -m "Initial testfile.txt commit"
 
